@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 30px;
+    font-size: 28px;
+    color: rgba(5, 82, 13, 1);
+    font-family: 'lucida_demibold';
+}
+
+
+.container{
+    margin-top: 110px;
+    width: 950px;
+}
+
+
+.subCon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subCon p{
+    font-family: 'lucida_regular';
+    color: rgba(125, 2, 2, 1);
+    font-size: 18px;
+}
+
+
+.location1_p2{
+    margin-right: 40px;
+}
+.location1_p3{
+    margin-right: 72px;
+}
+.location3_p2{
+    margin-right:7px;
+}
+
+
+
+
+
+.map{
+    border-radius: 15px;
+    margin-top: 160px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.map:hover{
+    scale: 1.1;
+}

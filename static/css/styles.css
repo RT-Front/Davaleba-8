@@ -1,0 +1,301 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.active{
+    border-bottom: 2px solid rgba(5, 107, 17, 1);
+    padding-bottom: 15px;
+    padding-left: 1px;
+}
+
+.main_ul{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color: rgba(134, 53, 3, 1);
+    font-family: 'lucida_demibold';
+}
+
+
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    margin-left: 50px;
+}
+
+.search_bar{
+    width: 226px;
+    height: 38px;
+    margin-left: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #D29E7E1A;
+}
+
+
+.search-icon{
+    position: absolute;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.nav-1{
+    width: 500px;
+}
+
+.nav-2{
+    width: 300px;
+    margin-left: -70px;
+}
+
+
+
+
+
+
+.top{
+    background-color: rgba(134, 53, 3, 0.07);
+    display: flex;
+    justify-content: space-between;
+    height: 830px;
+}
+
+.logo{
+    margin-top: -40px;
+    position: absolute;
+    margin-left: 150px;
+}
+
+.top_coffee{
+    height: 588px;
+    align-self: center;
+}
+
+.headline{
+    margin-left: 10%;
+    width: 560px;
+    align-self: center;
+    margin-top: 200px;
+}
+
+.headline h1{
+    font-family: 'lucida_demibold';
+    color: rgba(134, 53, 3, 1);
+    font-size: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.headline p{
+    font-size: 24px;
+    color: rgba(134, 53, 3, 1);
+    font-family: 'lucida_regular';
+}
+
+.p1{
+    display: flex;
+    height: 200px;
+    font-family: 'lucida_regular';
+}
+
+.p2{
+    margin-top: 150px;
+    
+    font-family: 'lucida_regular';
+}
+
+
+
+
+
+
+
+.specials h2{
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'lucida_demibold';
+    color: rgba(134, 53, 3, 1);
+    margin-top: 125px;
+    margin-bottom: 90px;
+    margin-left: 10%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(5, 107, 17, 1);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards img:hover{
+    scale: 1.1;
+}
+
+.name_price{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+    padding: 0px 9px;
+    align-items: center;
+}
+
+.name{
+    font-size: 20px;
+    color: rgba(5, 82, 13, 1);
+    font-family: 'lucida_demibold';
+}
+.price{
+    font-size: 15px;
+    color: rgba(125, 2, 2, 1);
+    font-family: 'lucida_demibold';
+}
+
+
+.cards_button{
+    border: 2px solid rgba(5, 82, 13, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 25px;
+    background-color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 77%;
+    margin-top: 55px;
+    border-radius: 15px;
+    font-family: 'lucida_demibold';
+}
+.cards_button:hover{
+    background-color: rgba(5, 82, 13, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 260px;
+    margin-top: 165px;
+    background-color: rgba(183, 138, 109, 0.24);
+}
+
+.web_txt{
+    margin-top: 105px;
+}
+
+.webs{
+    width: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer_txt{
+    margin-top: 65px;
+    font-size: 24px;
+    color: rgba(64, 4, 4, 1);
+    font-family: 'lucida_regular';
+}
+
+
+
+
+
+
+.find{
+    align-self: center;
+}
+
+
+.find :first-child{
+    font-size: 20px;
+    color: rgba(5, 82, 13, 1);
+    font-family: 'lucida_demibold';
+}
+
+.find:not(:first-child){
+    font-size: 18px;
+    color: rgba(134, 53, 3, 1);
+    font-family: 'lucida_regular';
+}
+
+.find :nth-child(2){
+    margin-top: 45px;
+}
+.find :nth-child(3){
+    margin-top: 30px;
+}
+.find :nth-child(4){
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.contact{
+    align-self: center;
+}
+
+
+.contact :first-child{
+    font-size: 20px;
+    color: rgba(5, 82, 13, 1);
+    font-family: 'lucida_demibold';
+}
+
+.contact:not(:first-child){
+    font-size: 18px;
+    color: rgba(134, 53, 3, 1);
+    font-family: 'lucida_regular';
+}
+
+.contact :nth-child(2){
+    margin-top: 45px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.contact :nth-child(3){
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact :last-child{
+    font-family: 'lucida_demibold';
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'lucida_demibold';
+    src: url(../fonts/lucidabrightdemibold.ttf);
+}
+@font-face {
+    font-family: 'lucida_regular';
+    src: url(../fonts/Lucida\ Bright\ Regular.ttf);
+}

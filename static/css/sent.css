@@ -1,0 +1,23 @@
+.accept{
+    margin-top: 125px;
+}
+
+.sent_p1{
+    margin-top: 110px;
+    font-family: 'lucida_demibold';
+    color: rgba(134, 53, 3, 1);
+    font-size: 17px;
+}
+.sent_p2{
+    margin-top: 30px;
+    font-family: 'lucida_demibold';
+    color: rgba(134, 53, 3, 1);
+    font-size: 17px;
+}
+.sent_p3{
+    margin-top: 100px;
+    font-family: 'lucida_demibold';
+    color: rgba(134, 53, 3, 1);
+    font-size: 17px;
+    margin-bottom: 250px;
+}
